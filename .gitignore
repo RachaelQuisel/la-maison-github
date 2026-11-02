@@ -1,0 +1,11 @@
+.DS_Store
+.env*
+!.env.example
+identity.json
+*.private.json
+output/
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+workflows/monthly-reporting/templates/*.pdf
