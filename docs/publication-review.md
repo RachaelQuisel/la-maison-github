@@ -1,5 +1,7 @@
 # Publication review — November 2, 2026
 
+This records the initial edition. See the later [source recovery review](source-recovery-2026-11-02.md) for the recovered assignment and inspection implementations and the remaining provider-configuration gaps.
+
 This is a new public edition, with a new Git history. Complete private operating repositories, their configuration, records, decisions, and original history are retained separately. A private companion maps each public feature to its known full source and records implementation gaps.
 
 ## What was reviewed

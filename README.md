@@ -13,12 +13,12 @@ These projects grew out of running La Maison in Santa Barbara. The goal here is 
 | Cleaning coverage automation | [Runbook](workflows/cleaning-coverage/README.md), [Apps Script](workflows/cleaning-coverage/Code.gs) | Reviewed public code edition, cascade rules, and 81 inherited test cases |
 | Monthly reporting and PDF preparation | [Runbook](workflows/monthly-reporting/README.md), [PDF preparation code](workflows/monthly-reporting/fill_tot_form.py) | Independent tax-base calculations, field mapping, blank-form validation, and tests |
 | Property Inspector Checkoff List | [Source and adaptation notes](workflows/property-inspector-checkoff-list.md), [Airtable source](https://github.com/RachaelQuisel/Airtable-AI-Webinar) | The underlying four-version Airtable interface case study, source, field map, and prompts |
-| Scheduling cleaners by text | [Workflow design](workflows/designs/cleaner-signups.md) | Process design; the exact claim-form backend is not included |
-| Guest door codes | [Workflow design](workflows/designs/guest-door-codes.md) | Lifecycle and control points; no property access details or lock connector |
-| Property inspection follow-up | [Workflow design](workflows/designs/inspection-follow-up.md) | Inspector-to-contractor process; dispatch backend is not included |
-| Ops Today daily briefing | [Workflow design](workflows/designs/ops-today.md) | Inputs, assembly, delivery, and recovery design; briefing connector is not included |
+| Scheduling cleaners by text | [Process and Calendar source](workflows/cleaner-signups/README.md) | Recovered assignment app; live Calendar response evidence; SMS offer distribution remains a separate requirement |
+| Guest door codes | [Platform workflow](workflows/guest-door-codes/README.md) | Airbnb-managed codes and manual exceptions; native property settings still require readback |
+| Property inspection follow-up | [Process and source](workflows/inspection-follow-up/README.md) | Recovered per-visit checklist, contractor request, booking, persistence, and notification code |
+| Ops Today daily briefing | [Observed process and evidence limits](workflows/ops-today/README.md) | Recent delivered briefings reviewed; controlling scheduler definition remains unrecovered |
 
-The first five have source-backed process documentation. The remaining four are documented designs. This publication does not turn an animation or a written design into a verified live integration.
+Seven projects now include implementation-backed process documentation. Guest access is documented through platform guidance and private operating records; Ops Today through observed deliveries and historical records. Native lock settings, the complete cleaner SMS-offer backend, and the current briefing definition remain explicit source gaps. See the [source recovery review](docs/source-recovery-2026-11-02.md).
 
 [See the portfolio videos](https://airbnbai.rent/automate.html) · [More work on GitHub](https://github.com/RachaelQuisel)
 
