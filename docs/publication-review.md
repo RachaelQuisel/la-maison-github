@@ -1,4 +1,4 @@
-# Publication review — November 2, 2026
+# Publication review: November 2, 2026
 
 This records the initial edition. See the later [source recovery review](source-recovery-2026-11-02.md) for the recovered assignment and inspection implementations and the remaining provider-configuration gaps.
 

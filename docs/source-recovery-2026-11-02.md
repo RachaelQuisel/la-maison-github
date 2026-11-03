@@ -1,4 +1,4 @@
-# Source recovery review — November 2, 2026
+# Source recovery review: November 2, 2026
 
 The earlier audit checked the current repository branches and found four video-led workflows without complete implementations there. This review followed connected operating sources and a separate documentation branch to recover more of the work.
 

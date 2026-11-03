@@ -17,7 +17,7 @@ flowchart LR
 2. `listAssignments` paginates through Calendar events. It recognizes supported booking labels, finds the checkout date, matches cleaning and inspection events by date, and adds the next arriving guest when present.
 3. Cards show the date, current assignees, arriving/departing guest labels, same-day turnover, and recognized cancellations. The display covers today through the next 60 days in the property timezone.
 4. Accept or Reject sends the selected role, event, work interval, and decision to `respondToAssignment`.
-5. Acceptance writes the selected assignee into the event title and appends a timestamped acceptance note. Rejection reopens that person's assignment, or retains a different existing assignee, and appends a decline note.
+5. Acceptance writes the selected assignee into the event title and appends a timestamped acceptance note. Rejection reopens that person's assignment or retains a different existing assignee and appends a decline note.
 6. The endpoint patches an existing event or creates one when no work event was supplied, then returns its event ID. A missing end defaults to five hours after the start.
 
 The shared Calendar is the assignment output. This endpoint does not write an Airtable assignment, send a new SMS invitation, or advance the cleaner offer sequence.

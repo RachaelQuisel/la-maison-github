@@ -24,7 +24,7 @@ The private edition preserves the exact evidence links, older guide, search cove
 ## Safe example structure
 
 ```text
-Daily operations briefing — [date]
+Daily operations briefing: [date]
 New bookings
 Guest messages needing a reply
 Reviews
