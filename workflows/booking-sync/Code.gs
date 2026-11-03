@@ -134,7 +134,16 @@ function syncReservations() {
     ' | Created: ' + created + ', Updated: ' + updated +
     ', Deleted: ' + deleted + ', Skipped: ' + skipped +
     ', Errors: ' + errors + ', Pruned: ' + pruned);
+  Logger.log(automationSignoff_(BOOKING_SYNC_SIGNOFF));
 }
+
+var BOOKING_SYNC_SIGNOFF = {
+  platform: 'Google Apps Script',
+  name: 'Booking Sync',
+  purpose: 'Reads Airbnb and VRBO booking emails and keeps the reservations calendar in step with them.',
+  cadence: 'Every 15 minutes (time-based trigger)',
+  link: 'https://github.com/RachaelQuisel/la-maison-github/tree/main/workflows/booking-sync'
+};
 
 function backfillReservations() {
   var savedDays = CONFIG.GMAIL_LOOKBACK_DAYS;
