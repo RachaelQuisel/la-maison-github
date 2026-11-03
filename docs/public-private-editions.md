@@ -9,8 +9,8 @@
 
 ## Differences in this public edition
 
-- Booking sync has a configurable target calendar, a disabled default, and rejects an incomplete fallback stay rather than guessing three nights.
-- Cleaning coverage has an example roster, disabled execution, generic owner naming, and an access-review reminder that contains no property-specific credential rule. The underlying 81-case decision suite is retained with sample identities.
+- Booking sync has a configurable target calendar, a disabled default and rejects an incomplete fallback stay rather than guessing three nights.
+- Cleaning coverage has an example roster, disabled execution, generic owner naming and an access-review reminder that contains no property-specific credential rule. The underlying 81-case decision suite is retained with sample identities.
 - Monthly reporting has no hardcoded property/filer identity. It takes an explicit local JSON file and uses the currently reviewed official blank form contract. Filled field appearances use a standard PDF font to keep amounts readable across viewers; the signature stays blank. Source ledgers and completed forms are excluded.
 - Cleaner assignment and inspection follow-up now have recovered implementation guides and disabled source excerpts. Guest access documents provider-managed and manual paths; the briefing guide records observed output and the unrecovered controlling definition. Older design URLs redirect to these expanded guides.
 - Existing public plugin and Airtable source stay in their original repositories, with direct links rather than duplicated packages.
